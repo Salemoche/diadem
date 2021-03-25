@@ -1,0 +1,24 @@
+/**
+ * ========================================
+ * 
+ * Main styles
+ * 
+ * ========================================
+ */
+
+// Overrides
+
+@import './0_settings/variables';
+
+
+// Salemoche Assets
+
+@import '../../../../../plugins/salemoche-wordpress-essentials/assets/src/scss/main.scss';
+
+// Essentials
+
+@import './essentials';
+
+// Generic
+
+@import './3_generic/generic';

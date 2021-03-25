@@ -1,0 +1,31 @@
+$mq-breakpoints: (
+	small: 600px,
+	medium: 768px,
+	large: 1024px,
+	xlarge: 1240px
+) !default;
+
+$spacing: (
+	"extra-small": 4px,
+	"small": 8px,
+	"regular": 16px,
+	"large": 32px,
+	"extra-large": 64px,
+	"extra-extra-large": 128px
+);
+
+$sizes: (
+	"extra-small": 4px,
+	"small": 8px,
+	"regular": 16px,
+	"large": 32px,
+	"extra-large": 64px,
+	"extra-extra-large": 128px,
+	"content-narrow": $content-width--narrow,
+	"content-wide": $content-width
+);
+
+$transition: .3s;
+$border-radius: 8px;
+$border-radius-small: 4px;
+$box-shadow: 5px 0px 15px #00000012;
